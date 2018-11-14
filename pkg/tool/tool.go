@@ -24,7 +24,7 @@ import (
 
 	"github.com/gogs/chardet"
 
-	"github.com/gogs/gogs/pkg/setting"
+	"github.com/c3systems/gogs/pkg/setting"
 )
 
 // MD5Bytes encodes string to MD5 bytes.

@@ -8,8 +8,8 @@ import (
 
 	api "github.com/gogs/go-gogs-client"
 
-	"github.com/gogs/gogs/models"
-	"github.com/gogs/gogs/pkg/context"
+	"github.com/c3systems/gogs/models"
+	"github.com/c3systems/gogs/pkg/context"
 )
 
 func ListIssueComments(c *context.APIContext) {

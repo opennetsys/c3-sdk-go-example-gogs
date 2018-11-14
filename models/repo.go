@@ -30,13 +30,13 @@ import (
 	git "github.com/gogs/git-module"
 	api "github.com/gogs/go-gogs-client"
 
-	"github.com/gogs/gogs/models/errors"
-	"github.com/gogs/gogs/pkg/avatar"
-	"github.com/gogs/gogs/pkg/bindata"
-	"github.com/gogs/gogs/pkg/markup"
-	"github.com/gogs/gogs/pkg/process"
-	"github.com/gogs/gogs/pkg/setting"
-	"github.com/gogs/gogs/pkg/sync"
+	"github.com/c3systems/gogs/models/errors"
+	"github.com/c3systems/gogs/pkg/avatar"
+	"github.com/c3systems/gogs/pkg/bindata"
+	"github.com/c3systems/gogs/pkg/markup"
+	"github.com/c3systems/gogs/pkg/process"
+	"github.com/c3systems/gogs/pkg/setting"
+	"github.com/c3systems/gogs/pkg/sync"
 )
 
 // REPO_AVATAR_URL_PREFIX is used to identify a URL is to access repository avatar.

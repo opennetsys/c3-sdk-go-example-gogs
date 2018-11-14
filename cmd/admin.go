@@ -11,8 +11,8 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/gogs/gogs/models"
-	"github.com/gogs/gogs/pkg/setting"
+	"github.com/c3systems/gogs/models"
+	"github.com/c3systems/gogs/pkg/setting"
 )
 
 var (

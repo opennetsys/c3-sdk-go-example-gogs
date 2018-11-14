@@ -11,10 +11,10 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"github.com/gogs/gogs/models"
-	"github.com/gogs/gogs/pkg/context"
-	"github.com/gogs/gogs/pkg/form"
-	"github.com/gogs/gogs/pkg/markup"
+	"github.com/c3systems/gogs/models"
+	"github.com/c3systems/gogs/pkg/context"
+	"github.com/c3systems/gogs/pkg/form"
+	"github.com/c3systems/gogs/pkg/markup"
 )
 
 const (

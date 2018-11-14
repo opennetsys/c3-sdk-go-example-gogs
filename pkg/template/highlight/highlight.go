@@ -8,7 +8,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/gogs/gogs/pkg/setting"
+	"github.com/c3systems/gogs/pkg/setting"
 )
 
 var (

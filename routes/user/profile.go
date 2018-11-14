@@ -11,12 +11,12 @@ import (
 
 	"github.com/Unknwon/paginater"
 
-	"github.com/gogs/gogs/models"
-	"github.com/gogs/gogs/models/errors"
-	"github.com/gogs/gogs/pkg/context"
-	"github.com/gogs/gogs/pkg/setting"
-	"github.com/gogs/gogs/pkg/tool"
-	"github.com/gogs/gogs/routes/repo"
+	"github.com/c3systems/gogs/models"
+	"github.com/c3systems/gogs/models/errors"
+	"github.com/c3systems/gogs/pkg/context"
+	"github.com/c3systems/gogs/pkg/setting"
+	"github.com/c3systems/gogs/pkg/tool"
+	"github.com/c3systems/gogs/routes/repo"
 )
 
 const (

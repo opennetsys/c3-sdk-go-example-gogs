@@ -19,17 +19,17 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"github.com/gogs/gogs/models"
-	"github.com/gogs/gogs/pkg/context"
-	"github.com/gogs/gogs/pkg/cron"
-	"github.com/gogs/gogs/pkg/form"
-	"github.com/gogs/gogs/pkg/mailer"
-	"github.com/gogs/gogs/pkg/markup"
-	"github.com/gogs/gogs/pkg/setting"
-	"github.com/gogs/gogs/pkg/ssh"
-	"github.com/gogs/gogs/pkg/template/highlight"
-	"github.com/gogs/gogs/pkg/tool"
-	"github.com/gogs/gogs/pkg/user"
+	"github.com/c3systems/gogs/models"
+	"github.com/c3systems/gogs/pkg/context"
+	"github.com/c3systems/gogs/pkg/cron"
+	"github.com/c3systems/gogs/pkg/form"
+	"github.com/c3systems/gogs/pkg/mailer"
+	"github.com/c3systems/gogs/pkg/markup"
+	"github.com/c3systems/gogs/pkg/setting"
+	"github.com/c3systems/gogs/pkg/ssh"
+	"github.com/c3systems/gogs/pkg/template/highlight"
+	"github.com/c3systems/gogs/pkg/tool"
+	"github.com/c3systems/gogs/pkg/user"
 )
 
 const (

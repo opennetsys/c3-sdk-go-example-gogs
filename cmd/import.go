@@ -15,7 +15,7 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/urfave/cli"
 
-	"github.com/gogs/gogs/pkg/setting"
+	"github.com/c3systems/gogs/pkg/setting"
 )
 
 var (

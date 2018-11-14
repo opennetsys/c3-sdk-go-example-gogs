@@ -11,8 +11,8 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/gogs/git-module"
 
-	"github.com/gogs/gogs/models/errors"
-	"github.com/gogs/gogs/pkg/tool"
+	"github.com/c3systems/gogs/models/errors"
+	"github.com/c3systems/gogs/pkg/tool"
 )
 
 type Branch struct {
