@@ -10,10 +10,10 @@ import (
 	"github.com/Unknwon/com"
 	log "gopkg.in/clog.v1"
 
-	"github.com/c3systems/gogs/models"
-	"github.com/c3systems/gogs/models/errors"
-	"github.com/c3systems/gogs/pkg/context"
-	"github.com/c3systems/gogs/pkg/form"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models/errors"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/context"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/form"
 )
 
 const (

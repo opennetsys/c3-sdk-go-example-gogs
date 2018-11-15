@@ -7,8 +7,8 @@ package user
 import (
 	api "github.com/gogs/go-gogs-client"
 
-	"github.com/c3systems/gogs/models"
-	"github.com/c3systems/gogs/pkg/context"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/context"
 )
 
 // https://github.com/gogs/go-gogs-client/wiki/Users#list-access-tokens-for-a-user

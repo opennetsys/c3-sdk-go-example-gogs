@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/c3systems/gogs/models/errors"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models/errors"
 )
 
 // EmailAdresses is the list of all email addresses of a user. Can contain the

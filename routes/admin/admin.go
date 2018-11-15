@@ -14,13 +14,13 @@ import (
 	"github.com/json-iterator/go"
 	"gopkg.in/macaron.v1"
 
-	"github.com/c3systems/gogs/models"
-	"github.com/c3systems/gogs/pkg/context"
-	"github.com/c3systems/gogs/pkg/cron"
-	"github.com/c3systems/gogs/pkg/mailer"
-	"github.com/c3systems/gogs/pkg/process"
-	"github.com/c3systems/gogs/pkg/setting"
-	"github.com/c3systems/gogs/pkg/tool"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/context"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/cron"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/mailer"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/process"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/setting"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/tool"
 )
 
 const (

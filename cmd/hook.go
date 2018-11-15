@@ -21,12 +21,12 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"github.com/c3systems/gogs/models"
-	"github.com/c3systems/gogs/models/errors"
-	"github.com/c3systems/gogs/pkg/httplib"
-	"github.com/c3systems/gogs/pkg/mailer"
-	"github.com/c3systems/gogs/pkg/setting"
-	"github.com/c3systems/gogs/pkg/template"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models/errors"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/httplib"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/mailer"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/setting"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/template"
 )
 
 var (

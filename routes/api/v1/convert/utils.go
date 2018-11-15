@@ -5,7 +5,7 @@
 package convert
 
 import (
-	"github.com/c3systems/gogs/pkg/setting"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/setting"
 )
 
 // ToCorrectPageSize makes sure page size is in allowed range.

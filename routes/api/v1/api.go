@@ -12,15 +12,15 @@ import (
 
 	api "github.com/gogs/go-gogs-client"
 
-	"github.com/c3systems/gogs/models"
-	"github.com/c3systems/gogs/models/errors"
-	"github.com/c3systems/gogs/pkg/context"
-	"github.com/c3systems/gogs/pkg/form"
-	"github.com/c3systems/gogs/routes/api/v1/admin"
-	"github.com/c3systems/gogs/routes/api/v1/misc"
-	"github.com/c3systems/gogs/routes/api/v1/org"
-	"github.com/c3systems/gogs/routes/api/v1/repo"
-	"github.com/c3systems/gogs/routes/api/v1/user"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models/errors"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/context"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/form"
+	"github.com/c3systems/c3-sdk-go-example-gogs/routes/api/v1/admin"
+	"github.com/c3systems/c3-sdk-go-example-gogs/routes/api/v1/misc"
+	"github.com/c3systems/c3-sdk-go-example-gogs/routes/api/v1/org"
+	"github.com/c3systems/c3-sdk-go-example-gogs/routes/api/v1/repo"
+	"github.com/c3systems/c3-sdk-go-example-gogs/routes/api/v1/user"
 )
 
 func repoAssignment() macaron.Handler {

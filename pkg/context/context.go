@@ -20,12 +20,12 @@ import (
 	log "gopkg.in/clog.v1"
 	"gopkg.in/macaron.v1"
 
-	"github.com/c3systems/gogs/models"
-	"github.com/c3systems/gogs/models/errors"
-	"github.com/c3systems/gogs/pkg/auth"
-	"github.com/c3systems/gogs/pkg/form"
-	"github.com/c3systems/gogs/pkg/setting"
-	"github.com/c3systems/gogs/pkg/template"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models/errors"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/auth"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/form"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/setting"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/template"
 )
 
 // Context represents context of a request.

@@ -5,10 +5,10 @@
 package admin
 
 import (
-	"github.com/c3systems/gogs/models"
-	"github.com/c3systems/gogs/pkg/context"
-	"github.com/c3systems/gogs/pkg/setting"
-	"github.com/c3systems/gogs/routes"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/context"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/setting"
+	"github.com/c3systems/c3-sdk-go-example-gogs/routes"
 )
 
 const (

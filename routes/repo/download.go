@@ -10,9 +10,9 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"github.com/c3systems/gogs/pkg/context"
-	"github.com/c3systems/gogs/pkg/setting"
-	"github.com/c3systems/gogs/pkg/tool"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/context"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/setting"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/tool"
 )
 
 func ServeData(c *context.Context, name string, reader io.Reader) error {

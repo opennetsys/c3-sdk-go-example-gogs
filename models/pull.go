@@ -18,10 +18,10 @@ import (
 	"github.com/gogs/git-module"
 	api "github.com/gogs/go-gogs-client"
 
-	"github.com/c3systems/gogs/models/errors"
-	"github.com/c3systems/gogs/pkg/process"
-	"github.com/c3systems/gogs/pkg/setting"
-	"github.com/c3systems/gogs/pkg/sync"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models/errors"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/process"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/setting"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/sync"
 )
 
 var PullRequestQueue = sync.NewUniqueQueue(setting.Repository.PullRequestQueueLength)

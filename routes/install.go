@@ -19,17 +19,17 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"github.com/c3systems/gogs/models"
-	"github.com/c3systems/gogs/pkg/context"
-	"github.com/c3systems/gogs/pkg/cron"
-	"github.com/c3systems/gogs/pkg/form"
-	"github.com/c3systems/gogs/pkg/mailer"
-	"github.com/c3systems/gogs/pkg/markup"
-	"github.com/c3systems/gogs/pkg/setting"
-	"github.com/c3systems/gogs/pkg/ssh"
-	"github.com/c3systems/gogs/pkg/template/highlight"
-	"github.com/c3systems/gogs/pkg/tool"
-	"github.com/c3systems/gogs/pkg/user"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/context"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/cron"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/form"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/mailer"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/markup"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/setting"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/ssh"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/template/highlight"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/tool"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/user"
 )
 
 const (

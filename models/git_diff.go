@@ -17,9 +17,9 @@ import (
 
 	"github.com/gogs/git-module"
 
-	"github.com/c3systems/gogs/pkg/setting"
-	"github.com/c3systems/gogs/pkg/template/highlight"
-	"github.com/c3systems/gogs/pkg/tool"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/setting"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/template/highlight"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/tool"
 )
 
 type DiffSection struct {

@@ -27,9 +27,9 @@ import (
 
 	"github.com/gogs/go-libravatar"
 
-	"github.com/c3systems/gogs/pkg/bindata"
-	"github.com/c3systems/gogs/pkg/process"
-	"github.com/c3systems/gogs/pkg/user"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/bindata"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/process"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/user"
 )
 
 type Scheme string
@@ -399,7 +399,7 @@ func getOpenSSHVersion() string {
 		log.Fatal(2, "Fail to get OpenSSH version: %v - %s", err, stderr)
 	}
 
-	// Trim unused information: https://github.com/c3systems/gogs/issues/4507#issuecomment-305150441
+	// Trim unused information: https://github.com/c3systems/c3-sdk-go-example-gogs/issues/4507#issuecomment-305150441
 	version := strings.TrimRight(strings.Fields(stderr)[0], ",1234567890")
 	version = strings.TrimSuffix(strings.TrimPrefix(version, "OpenSSH_"), "p")
 	return version
@@ -523,7 +523,7 @@ func NewContext() {
 	}
 
 	// Check if server is eligible for minimum key size check when user choose to enable.
-	// Windows server and OpenSSH version lower than 5.1 (https://github.com/c3systems/gogs/issues/4507)
+	// Windows server and OpenSSH version lower than 5.1 (https://github.com/c3systems/c3-sdk-go-example-gogs/issues/4507)
 	// are forced to be disabled because the "ssh-keygen" in Windows does not print key type.
 	if SSH.MinimumKeySizeCheck &&
 		(IsWindows || version.Compare(getOpenSSHVersion(), "5.1", "<")) {

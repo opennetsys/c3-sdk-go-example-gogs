@@ -17,14 +17,14 @@ import (
 	"github.com/Unknwon/paginater"
 	log "gopkg.in/clog.v1"
 
-	"github.com/c3systems/gogs/models"
-	"github.com/c3systems/gogs/models/errors"
-	"github.com/c3systems/gogs/pkg/context"
-	"github.com/c3systems/gogs/pkg/form"
-	"github.com/c3systems/gogs/pkg/markup"
-	"github.com/c3systems/gogs/pkg/setting"
-	"github.com/c3systems/gogs/pkg/template"
-	"github.com/c3systems/gogs/pkg/tool"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models/errors"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/context"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/form"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/markup"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/setting"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/template"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/tool"
 )
 
 const (

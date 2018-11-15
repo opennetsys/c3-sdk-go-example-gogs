@@ -12,8 +12,8 @@ import (
 	"github.com/russross/blackfriday"
 	. "github.com/smartystreets/goconvey/convey"
 
-	. "github.com/c3systems/gogs/pkg/markup"
-	"github.com/c3systems/gogs/pkg/setting"
+	. "github.com/c3systems/c3-sdk-go-example-gogs/pkg/markup"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/setting"
 )
 
 func Test_IsMarkdownFile(t *testing.T) {

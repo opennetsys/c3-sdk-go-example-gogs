@@ -9,12 +9,12 @@ import (
 
 	api "github.com/gogs/go-gogs-client"
 
-	"github.com/c3systems/gogs/models"
-	"github.com/c3systems/gogs/models/errors"
-	"github.com/c3systems/gogs/pkg/context"
-	"github.com/c3systems/gogs/pkg/mailer"
-	"github.com/c3systems/gogs/pkg/setting"
-	"github.com/c3systems/gogs/routes/api/v1/user"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models"
+	"github.com/c3systems/c3-sdk-go-example-gogs/models/errors"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/context"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/mailer"
+	"github.com/c3systems/c3-sdk-go-example-gogs/pkg/setting"
+	"github.com/c3systems/c3-sdk-go-example-gogs/routes/api/v1/user"
 )
 
 func parseLoginSource(c *context.APIContext, u *models.User, sourceID int64, loginName string) {
