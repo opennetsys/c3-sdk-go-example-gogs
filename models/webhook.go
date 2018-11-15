@@ -113,12 +113,15 @@ type Webhook struct {
 }
 
 func (w *Webhook) BeforeInsert() {
-	w.CreatedUnix = time.Now().Unix()
+	//w.CreatedUnix = time.Now().Unix()
+	//w.UpdatedUnix = w.CreatedUnix
+	w.CreatedUnix = 0
 	w.UpdatedUnix = w.CreatedUnix
 }
 
 func (w *Webhook) BeforeUpdate() {
-	w.UpdatedUnix = time.Now().Unix()
+	//w.UpdatedUnix = time.Now().Unix()
+	w.UpdatedUnix = 0
 }
 
 func (w *Webhook) AfterSet(colName string, _ xorm.Cell) {

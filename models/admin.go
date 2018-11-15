@@ -35,7 +35,8 @@ type Notice struct {
 }
 
 func (n *Notice) BeforeInsert() {
-	n.CreatedUnix = time.Now().Unix()
+	//n.CreatedUnix = time.Now().Unix()
+	n.CreatedUnix = 0
 }
 
 func (n *Notice) AfterSet(colName string, _ xorm.Cell) {

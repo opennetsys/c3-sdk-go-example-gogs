@@ -92,7 +92,8 @@ type Action struct {
 }
 
 func (a *Action) BeforeInsert() {
-	a.CreatedUnix = time.Now().Unix()
+	//a.CreatedUnix = time.Now().Unix()
+	a.CreatedUnix = 0
 }
 
 func (a *Action) AfterSet(colName string, _ xorm.Cell) {

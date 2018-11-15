@@ -208,12 +208,15 @@ type Repository struct {
 }
 
 func (repo *Repository) BeforeInsert() {
-	repo.CreatedUnix = time.Now().Unix()
-	repo.UpdatedUnix = repo.CreatedUnix
+	//repo.CreatedUnix = time.Now().Unix()
+	//repo.UpdatedUnix = repo.CreatedUnix
+	repo.CreatedUnix = 0
+	repo.UpdatedUnix = 0
 }
 
 func (repo *Repository) BeforeUpdate() {
-	repo.UpdatedUnix = time.Now().Unix()
+	//repo.UpdatedUnix = time.Now().Unix()
+	repo.UpdatedUnix = 0
 }
 
 func (repo *Repository) AfterSet(colName string, _ xorm.Cell) {

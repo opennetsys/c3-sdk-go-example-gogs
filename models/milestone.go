@@ -38,7 +38,8 @@ type Milestone struct {
 }
 
 func (m *Milestone) BeforeInsert() {
-	m.DeadlineUnix = m.Deadline.Unix()
+	//m.DeadlineUnix = m.Deadline.Unix()
+	m.DeadlineUnix = 0
 }
 
 func (m *Milestone) BeforeUpdate() {

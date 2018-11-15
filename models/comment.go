@@ -75,12 +75,15 @@ type Comment struct {
 }
 
 func (c *Comment) BeforeInsert() {
-	c.CreatedUnix = time.Now().Unix()
-	c.UpdatedUnix = c.CreatedUnix
+	//c.CreatedUnix = time.Now().Unix()
+	//c.UpdatedUnix = c.CreatedUnix
+	c.CreatedUnix = 0
+	c.UpdatedUnix = 0
 }
 
 func (c *Comment) BeforeUpdate() {
-	c.UpdatedUnix = time.Now().Unix()
+	//c.UpdatedUnix = time.Now().Unix()
+	c.UpdatedUnix = 0
 }
 
 func (c *Comment) AfterSet(colName string, _ xorm.Cell) {

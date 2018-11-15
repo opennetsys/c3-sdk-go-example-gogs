@@ -59,11 +59,13 @@ type PublicKey struct {
 }
 
 func (k *PublicKey) BeforeInsert() {
-	k.CreatedUnix = time.Now().Unix()
+	//k.CreatedUnix = time.Now().Unix()
+	k.CreatedUnix = 0
 }
 
 func (k *PublicKey) BeforeUpdate() {
-	k.UpdatedUnix = time.Now().Unix()
+	//k.UpdatedUnix = time.Now().Unix()
+	k.UpdatedUnix = 0
 }
 
 func (k *PublicKey) AfterSet(colName string, _ xorm.Cell) {
@@ -578,11 +580,13 @@ type DeployKey struct {
 }
 
 func (k *DeployKey) BeforeInsert() {
-	k.CreatedUnix = time.Now().Unix()
+	//k.CreatedUnix = time.Now().Unix()
+	k.CreatedUnix = 0
 }
 
 func (k *DeployKey) BeforeUpdate() {
-	k.UpdatedUnix = time.Now().Unix()
+	//k.UpdatedUnix = time.Now().Unix()
+	k.UpdatedUnix = 0
 }
 
 func (k *DeployKey) AfterSet(colName string, _ xorm.Cell) {

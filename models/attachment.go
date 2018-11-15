@@ -32,7 +32,8 @@ type Attachment struct {
 }
 
 func (a *Attachment) BeforeInsert() {
-	a.CreatedUnix = time.Now().Unix()
+	//a.CreatedUnix = time.Now().Unix()
+	a.CreatedUnix = 0
 }
 
 func (a *Attachment) AfterSet(colName string, _ xorm.Cell) {

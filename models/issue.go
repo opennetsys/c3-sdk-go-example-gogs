@@ -59,12 +59,15 @@ type Issue struct {
 }
 
 func (issue *Issue) BeforeInsert() {
-	issue.CreatedUnix = time.Now().Unix()
-	issue.UpdatedUnix = issue.CreatedUnix
+	//issue.CreatedUnix = time.Now().Unix()
+	//issue.UpdatedUnix = issue.CreatedUnix
+	issue.CreatedUnix = 0
+	issue.UpdatedUnix = 0
 }
 
 func (issue *Issue) BeforeUpdate() {
-	issue.UpdatedUnix = time.Now().Unix()
+	//issue.UpdatedUnix = time.Now().Unix()
+	issue.UpdatedUnix = 0
 	issue.DeadlineUnix = issue.Deadline.Unix()
 }
 

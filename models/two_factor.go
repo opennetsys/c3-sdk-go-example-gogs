@@ -30,7 +30,8 @@ type TwoFactor struct {
 }
 
 func (t *TwoFactor) BeforeInsert() {
-	t.CreatedUnix = time.Now().Unix()
+	//t.CreatedUnix = time.Now().Unix()
+	t.CreatedUnix = 0
 }
 
 func (t *TwoFactor) AfterSet(colName string, _ xorm.Cell) {

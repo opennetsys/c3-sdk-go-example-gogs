@@ -46,7 +46,8 @@ type Release struct {
 
 func (r *Release) BeforeInsert() {
 	if r.CreatedUnix == 0 {
-		r.CreatedUnix = time.Now().Unix()
+		//r.CreatedUnix = time.Now().Unix()
+		r.CreatedUnix = 0
 	}
 }
 
