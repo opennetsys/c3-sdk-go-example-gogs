@@ -16,3 +16,5 @@ output*
 *.sublime-workspace
 /release
 zip/
+*.swp
+*.swo
